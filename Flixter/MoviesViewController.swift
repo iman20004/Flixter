@@ -7,8 +7,8 @@
 
 import UIKit
 
-class MoviesViewController: UIViewController {
-
+class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+   
     // variable to locally store all the movies provided by the JSON file
     // movies is an array of dictionaries
     var movies = [[String: Any]]()
@@ -17,6 +17,9 @@ class MoviesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.dataSource = self
+        tableView.delegate = self
+        
         // Do any additional setup after loading the view.
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
@@ -34,6 +37,7 @@ class MoviesViewController: UIViewController {
             //storing all the movies from the JSON file
             self.movies = dataDictionary["results"] as! [[String: Any]]
             
+            self.tableView.reloadData()
             
               // TODO: Get the array of movies
               // TODO: Store the movies in a property to use elsewhere
@@ -42,6 +46,23 @@ class MoviesViewController: UIViewController {
            }
         }
         task.resume()
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+        return movies.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+        let cell = UITableViewCell()
+        
+        let movie = movies[indexPath.row]
+        let title = movie["title"] as! String
+        
+        cell.textLabel!.text = title
+        return cell
+        
     }
     
 
