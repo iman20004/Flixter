@@ -12,8 +12,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### REQUIRED (10pts)
 - [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [ ] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [ ] (3pts) User can view the movie poster image for each movie.
+- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
 - [ ] (2pt) User can view the app on various device sizes and orientations.
@@ -25,4 +25,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+My second iOS application. This time the development went much smoother. Got a grip of swift and xcode.
+
+Challenges:
+Faced some problems while downloading cocoapods. 
+Also some issues with layout constraints.
+
+Overall pretty exciting project.
