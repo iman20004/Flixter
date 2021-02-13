@@ -18,6 +18,9 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="Rv7-VH-tZr">
                                 <rect key="frame" x="138" y="378.5" width="138" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Rv7-VH-tZr" secondAttribute="height" multiplier="138:139" id="9rH-Fq-dpT"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -25,6 +28,7 @@
                         <constraints>
                             <constraint firstItem="Rv7-VH-tZr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2Ku-Pw-aKC"/>
                             <constraint firstItem="Rv7-VH-tZr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ha3-zK-uPp"/>
+                            <constraint firstItem="Rv7-VH-tZr" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.333333" id="yLc-NU-937"/>
                         </constraints>
                     </view>
                 </viewController>
