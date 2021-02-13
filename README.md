@@ -23,9 +23,12 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] Added animations such as background color and custom font size.
 - [x] Layout constraints for LaunchScreen so app can be used across multiple platforms
 
-### App Walkthrough GIF
-
+### App Walkthrough GIF 
+#### IPHONE 11
 <img src="http://g.recordit.co/zq5D99YpAC.gif" width=250><br>
+
+#### IPHONE 8
+<img src="http://g.recordit.co/ThldK2ny2O.gif" width=250><br>
 
 ### Notes
 My second iOS application. This time the development went much smoother. Got a grip of swift and xcode.
