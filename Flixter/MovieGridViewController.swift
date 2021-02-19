@@ -27,6 +27,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         // Spacing b/w the cols
         layout.minimumInteritemSpacing = 10
         
+        
         let width = (view.frame.size.width - layout.minimumInteritemSpacing) / 2
         layout.itemSize = CGSize(width: width, height: width * 1.5)
         
@@ -71,7 +72,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         
         return cell
     }
-    
+  
     
     /*
     // MARK: - Navigation

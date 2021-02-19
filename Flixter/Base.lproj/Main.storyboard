@@ -220,7 +220,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bcE-ts-iPN">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fBi-iM-gUK">
                                     <size key="itemSize" width="202" height="292"/>
@@ -241,10 +241,10 @@
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="dyc-dp-C1I" secondAttribute="bottom" id="BZg-l0-BHk"/>
-                                                <constraint firstItem="dyc-dp-C1I" firstAttribute="top" secondItem="MJD-KA-QEb" secondAttribute="top" id="SFi-0g-y17"/>
-                                                <constraint firstItem="dyc-dp-C1I" firstAttribute="leading" secondItem="MJD-KA-QEb" secondAttribute="leading" id="Y5R-8U-Hhc"/>
-                                                <constraint firstAttribute="trailing" secondItem="dyc-dp-C1I" secondAttribute="trailing" id="hkE-0Y-75Z"/>
+                                                <constraint firstAttribute="bottom" secondItem="dyc-dp-C1I" secondAttribute="bottom" id="D69-hL-HHy"/>
+                                                <constraint firstItem="dyc-dp-C1I" firstAttribute="leading" secondItem="MJD-KA-QEb" secondAttribute="leading" id="HjU-R9-vmZ"/>
+                                                <constraint firstItem="dyc-dp-C1I" firstAttribute="top" secondItem="MJD-KA-QEb" secondAttribute="top" id="bAH-8q-sUm"/>
+                                                <constraint firstAttribute="trailing" secondItem="dyc-dp-C1I" secondAttribute="trailing" id="iBo-1J-RYs"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="202" height="292"/>
