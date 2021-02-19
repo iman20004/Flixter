@@ -22,7 +22,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthrough GIF
 #### IPHONE 11
 
-##### Overview                                           :   Now Playing                                           :   Superhero
+##### ----------Overview------------------NowPlaying------------------Superhero
 <img src="http://g.recordit.co/XzkjD9gxPb.gif" width=250>  <img src="http://g.recordit.co/awAoVgkQBo.gif" width=250> <img src="http://g.recordit.co/TfI2ul96Bs.gif" width=250>
 
 #### IPHONE 8
