@@ -37,19 +37,17 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
 
             
-            //storing all the movies from the JSON file
+            // Storing all the movies from the JSON file
             self.movies = dataDictionary["results"] as! [[String: Any]]
             
             self.tableView.reloadData()
-            
-              // TODO: Get the array of movies
-              // TODO: Store the movies in a property to use elsewhere
-              // TODO: Reload your table view data
 
            }
         }
         task.resume()
     }
+    
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
@@ -82,14 +80,24 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        // Get the chosen movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // Pass on movie to details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        // Selected cell wont be highlited anymore
+        tableView.deselectRow(at: indexPath, animated: true)
+        
     }
-    */
 
 }
