@@ -107,22 +107,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ST7-s0-D8x">
-                                <rect key="frame" x="0.0" y="88" width="414" height="357.5"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="358.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="V7F-0r-QZL"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wg-m9-2U3">
-                                <rect key="frame" x="20" y="583.5" width="374" height="23.5"/>
+                                <rect key="frame" x="20" y="582.5" width="374" height="23.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yhg-hL-xf5">
-                                <rect key="frame" x="18" y="333.5" width="143" height="228.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhg-hL-xf5">
+                                <rect key="frame" x="18" y="334" width="142" height="229"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="yhg-hL-xf5" secondAttribute="height" multiplier="143:229" id="6hz-mb-uCp"/>
+                                    <constraint firstAttribute="width" secondItem="yhg-hL-xf5" secondAttribute="height" multiplier="143:229" id="hFE-KU-tAc"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
@@ -139,8 +139,7 @@
                             <constraint firstItem="Bor-qf-mbQ" firstAttribute="leading" secondItem="yhg-hL-xf5" secondAttribute="trailing" constant="10" id="4KU-C9-JfO"/>
                             <constraint firstItem="OD3-yd-QIa" firstAttribute="trailing" secondItem="Bor-qf-mbQ" secondAttribute="trailing" constant="10" id="5q9-Uo-TAI"/>
                             <constraint firstItem="ST7-s0-D8x" firstAttribute="width" secondItem="hNh-lO-0sF" secondAttribute="width" id="9DK-Dk-7ls"/>
-                            <constraint firstItem="yhg-hL-xf5" firstAttribute="leading" secondItem="OD3-yd-QIa" secondAttribute="leading" constant="18" id="BXs-Oq-Nc6"/>
-                            <constraint firstItem="yhg-hL-xf5" firstAttribute="height" secondItem="hNh-lO-0sF" secondAttribute="height" multiplier="0.256" id="HIm-zE-XBQ"/>
+                            <constraint firstItem="yhg-hL-xf5" firstAttribute="leading" secondItem="OD3-yd-QIa" secondAttribute="leading" constant="20" id="BXs-Oq-Nc6"/>
                             <constraint firstItem="1wg-m9-2U3" firstAttribute="leading" secondItem="OD3-yd-QIa" secondAttribute="leading" constant="20" id="LaD-2f-wuJ"/>
                             <constraint firstItem="OD3-yd-QIa" firstAttribute="trailing" secondItem="1wg-m9-2U3" secondAttribute="trailing" constant="20" id="MB3-fM-lME"/>
                             <constraint firstItem="Bor-qf-mbQ" firstAttribute="top" secondItem="ST7-s0-D8x" secondAttribute="bottom" constant="10" id="SiV-vb-c8l"/>
@@ -149,9 +148,9 @@
                             <constraint firstItem="yhg-hL-xf5" firstAttribute="width" secondItem="hNh-lO-0sF" secondAttribute="width" multiplier="0.345" id="dRW-p3-OIT"/>
                             <constraint firstItem="ST7-s0-D8x" firstAttribute="trailing" secondItem="OD3-yd-QIa" secondAttribute="trailing" id="fkw-4a-b3l"/>
                             <constraint firstItem="1wg-m9-2U3" firstAttribute="leading" secondItem="OD3-yd-QIa" secondAttribute="leading" constant="20" id="oNL-Vu-H4Z"/>
-                            <constraint firstItem="1wg-m9-2U3" firstAttribute="top" secondItem="yhg-hL-xf5" secondAttribute="bottom" constant="21.5" id="s5b-gI-UPj"/>
+                            <constraint firstItem="1wg-m9-2U3" firstAttribute="top" secondItem="yhg-hL-xf5" secondAttribute="bottom" constant="20" id="s5b-gI-UPj"/>
                             <constraint firstItem="OD3-yd-QIa" firstAttribute="trailing" secondItem="1wg-m9-2U3" secondAttribute="trailing" constant="20" id="t1D-VX-UzL"/>
-                            <constraint firstItem="yhg-hL-xf5" firstAttribute="centerY" secondItem="hNh-lO-0sF" secondAttribute="centerY" constant="1" id="uW8-qG-bzJ"/>
+                            <constraint firstItem="yhg-hL-xf5" firstAttribute="centerY" secondItem="hNh-lO-0sF" secondAttribute="centerY" id="uW8-qG-bzJ"/>
                             <constraint firstItem="ST7-s0-D8x" firstAttribute="leading" secondItem="OD3-yd-QIa" secondAttribute="leading" id="v9n-LP-sd6"/>
                         </constraints>
                     </view>
